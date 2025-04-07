@@ -1,5 +1,4 @@
-FROM nginx:latest
+FROM nginx:alpine
 
-COPY . C:/Users/Yakup/Desktop/deneme1/YMGDersOrnek/index.html
+COPY index.html /usr/share/nginx/html/index.html
 
-EXPOSE 80
